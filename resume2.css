@@ -1,0 +1,20 @@
+h1 {
+  color:blue;
+  background-color:#e2e2e2;
+  padding:5px;
+}
+
+body{
+  font-family:"Arial";
+  background-color:#0099cc;
+}
+
+.main-image {
+  border: solid 4px black;
+  border-radius: 50%;
+}
+
+.section-title {
+  text-transform:uppercase;
+
+}
