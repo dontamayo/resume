@@ -1,15 +1,15 @@
 /* Global Layout Set-up */
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #b3e0ff;
 }
 /* Link Styles */
 
@@ -41,6 +41,7 @@ a:hover {
 }
 .nav .name {
   display: none;
+  font-style: oblique;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -54,7 +55,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('media/DON_0115.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -74,16 +75,17 @@ header .profile-image:hover {
   transform: scale(1.5) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: gray;
+  color: white;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
 .location {
-  background-color: #339933;
-  color: yellow;
+  color: white;
+  font-family: cursive;
+
 }
 .card {
   margin: 30px;
@@ -166,7 +168,7 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
       display: flex;
       max-width: 1200px;
@@ -203,4 +205,3 @@ a.social:hover {
   }
 
 }
-

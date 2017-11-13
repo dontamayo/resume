@@ -1,0 +1,13 @@
+
+body {
+background: src="media/DON_0111.jpg" alt="Drawing of Don Tamayo" class="profile-image">
+}
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
